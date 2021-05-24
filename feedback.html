@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuttle Service</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Shuttle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signin.html">Sign-in</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signup.html">Sign-up</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/feedback.html">Feedback</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="homeLeft" style="margin-top:5%;width:30%">
+        <div class="card">
+            <div class="card-header">
+                <h2>We always value your Feedback!</h2>
+            </div>
+            <div class="card-body">
+                <span style="display:block;color:grey;">How do you Rate us?</span>
+                <div class="rating-css">
+                    <div class="star-icon">
+                      <input type="radio" name="rating1" id="rating1">
+                      <label for="rating1" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating2">
+                      <label for="rating2" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating3">
+                      <label for="rating3" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating4">
+                      <label for="rating4" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating5">
+                      <label for="rating5" class="fa fa-star"></label>
+                    </div>
+                </div><br>
+                <textarea rows="5" cols="20" placeholder="Please enter your feedback here."></textarea><br>
+                <span style="display:block;color:grey;">How did you get to know about us?</span>
+                <input type="checkbox">
+                <span style="border-width:3px;margin-right:2%;">Newspaper</span>
+                <input type="checkbox">
+                <span style="margin-right:2%;">Teachers</span>
+                <input type="checkbox">
+                <span>Friends</span>
+                <br><br><br><br><br>
+              <a href="#" class="btn btn-primary">Send Feedback</a>
+            </div>
+            </div>
+        </div>
+        
+</body>
+</html>
