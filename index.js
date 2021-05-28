@@ -10,7 +10,7 @@ app.get("/",function(request,response){
     response.sendFile(__dirname + "/home.html")
 })
 app.get("/aboutus.html",function(request,response){
-    response.sendFile(__dirname + "/home.html")
+    response.sendFile(__dirname + "/aboutus.html")
 })
 app.get("/feedback.html",function(request,response){
     response.sendFile(__dirname + "/feedback.html")
@@ -20,6 +20,9 @@ app.get("/signin.html",function(request,response){
 })
 app.get("/signup.html",function(request,response){
     response.sendFile(__dirname + "/signup.html")
+})
+app.get("/profile.html",function(request,response){
+    response.sendFile(__dirname + "/profile.html")
 })
 
 app.listen(3000,function(){
